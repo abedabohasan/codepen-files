@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>News homepage</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg mt-5 mb-4">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./assets/images/logo.svg" alt="logo" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <button
+                type="button"
+                class="btn-close d-none"
+                aria-label="Close"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+              ></button>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">New</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">Popular</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">Trending</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">Categories</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <img
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="image"
+              class="col-12 mb-3 desktop-image"
+            />
+            <img
+              src="./assets/images/image-web-3-mobile.jpg"
+              alt="image"
+              class="col-12 mb-3 d-none mobile-image"
+            />
+            <div class="row my-3">
+              <h1 class="title col-12 col-sm-6">
+                The Bright Future of Web 3.0?
+              </h1>
+              <div class="detiles col-12 col-sm-6">
+                <p class="mt-3">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of hte people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button class="btn my-5">READ MORE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="new px-4 pt-4 mb-5">
+              <div class="card-title my-3">
+                <h1>New</h1>
+              </div>
+              <div class="news">
+                <div class="news-item my-5">
+                  <h4>Hydrogen VS Electric Cars</h4>
+                  <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <div class="news-item my-5">
+                  <h4>The Downsides of AI Artistry</h4>
+                  <p>
+                    What are the possible adverse effects of on-demand AI image
+                    generation?
+                  </p>
+                </div>
+                <div class="news-item my-5">
+                  <h4>Is VC Funding Drying Up?</h4>
+                  <p>
+                    Private funding by VC firms is down 50% YOY. We take a look
+                    at what that means.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-4 my-2">
+            <div class="media-item d-flex align-items-center">
+              <img
+                src="./assets/images/image-retro-pcs.jpg"
+                alt="retro"
+                class="flex-shrink-0"
+              />
+              <div class="media-details flex-grow-1 mx-4 d-flex flex-column">
+                <h3 class="media-id">01</h3>
+                <h6 class="media-title">Reviving Retro PCs</h6>
+                <p class="media-hint">
+                  What happens when old PCs are given modern upgrades
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 my-2">
+            <div class="media-item d-flex align-items-center">
+              <img src="./assets/images/image-top-laptops.jpg" alt="" />
+              <div class="media-details mx-4 d-flex flex-column">
+                <h3 class="media-id">02</h3>
+                <h6 class="media-title">Top 10 Laptops of 2022</h6>
+                <p class="media-hint">
+                  Our best picks for various needs and budgets.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 my-2">
+            <div class="media-item d-flex align-items-center">
+              <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+              <div class="media-details mx-4 d-flex flex-column w-100">
+                <h3 class="media-id">03</h3>
+                <h6 class="media-title">The Growth of Gaming</h6>
+                <p class="media-hint">
+                  How the pandemic has sparked fresh opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution text-center py-4">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">AbdElrahman AbuHasan</a>.
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
