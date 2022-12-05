@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+}
+
+.container {
+  height: 100vh;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+p {
+  color: hsl(0, 0%, 81%) !important;
+  opacity: 70%;
+  font-weight: 500;
+}
+
+img {
+  border: 2px solid hsl(263, 55%, 52%);
+}
+
+.profile-details :first-child {
+  opacity: 1 !important;
+  font-weight: 600;
+}
+
+.profile-details :last-child {
+  opacity: 50%;
+}
+
+img {
+  max-width: 45px;
+}
+
+.danial-comment {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.jonathan-comment {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.jeanette-comment {
+  background-color: #fff;
+}
+
+.patrick-comment {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.kira-comment {
+  background-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .container {
+    height: unset !important;
+  }
+}
